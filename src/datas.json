@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Guilherme",
+    "age": 25,
+    "city": "Porto Alegre - Fundão",
+    "photo": "/images/trabalhohowgui.jpg", 
+    "description": "Última vez visto no bar do vizinho, provavelmente tentando entender onde foi parar sua dignidade. Conheceu o novo morador e decidiu que a vida dele não era suficientemente complicada. Parabéns, Guilherme. Qualquer informação, por favor não ajude, é o que pedem seus colegas"
+  },
+  {
+    "id": 2,
+    "name": "Richard",
+    "age": 28,
+    "city": "Ijuí",
+    "photo": "/images/richard.jpg", 
+    "description": "Foi para o bar Jaws e sumiu. A última vez que alguém o viu, estava tentando convencer o tubarão de que ele não era uma boa refeição. Spoiler: não deu certo. Richard, realmente, um gênio do planejamento de noites épicas."
+  },
+  {
+    "id": 3,
+    "name": "Kadu (kaiana)",
+    "age": 22,
+    "city": "Porto Belo",
+    "photo": "/images/kadu.jpg",  
+    "description": "Desapareceu depois da meia-noite de quinta-feira. A última vez que foi visto, estava com um colega perto do residencial MarAzul. Aparentemente, Kadu acreditava que era hora de uma jornada épica à procura de... nada. Talvez tenha se perdido no caminho para o bom senso."
+  },
+  {
+    "id": 4,
+    "name": "Pablo",
+    "age": 25,
+    "city": "Porto Belo",
+    "photo": "/images/pablo.jpg",  
+    "description": "Saiu de casa com o sonho de ser piloto de F1, mas foi visto pilotando um carrinho de mão. Talvez ele achasse que isso fosse a versão 'low-cost' do circuito de Mônaco. Depois disso, desapareceu. Sua mãe a namorada o procuram."
+  }
+]

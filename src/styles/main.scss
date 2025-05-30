@@ -1,0 +1,50 @@
+/* Resetando margens, preenchimentos e box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* Garante que o conteúdo ocupe toda a largura da tela */
+  justify-content: flex-start;
+  width: 100%;  /* Garante que o root ocupe toda a largura */
+  min-height: 100%; /* Garante que o root ocupe toda a altura da tela */
+  padding: 0px 0px 0px 0px;
+  flex-grow: 1; /* Garante que o conteúdo ocupe todo o espaço disponível */
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* Centraliza os itens horizontalmente */
+  justify-content: flex-start;
+  width: 100%;  /* Garante que a container ocupe toda a largura */
+  height: 100%; /* Garante que a container ocupe toda a altura */
+  flex-grow: 1; /* Garante que a container ocupe todo o espaço disponível */
+  
+ 
+}
+
+footer {
+  width: 100%;
+  padding: 15px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  margin-top: auto; /* Empurra o footer para o final da tela */
+}
