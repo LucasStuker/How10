@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './cadastradosPage.scss'
 const CadastradosPage = ({cases}) => {
   return (
     <div className="cadastrados-page">

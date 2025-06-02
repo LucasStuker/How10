@@ -1,35 +1,36 @@
-/* Header.scss */
 .header {
+  background-color: #333;  /* Cor de fundo */
+  color: #fff;  /* Cor do texto */
+  padding: 20px;
+  text-align: center;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  width: 100%;
-  padding: 15px 20px;
-  background-color: #333;
-  color: #fff;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;  /* Espaço entre os links */
 }
 
 .nav a {
-  color: #fff;
-  margin-left: 20px;
-  text-decoration: none;
-  font-size: 1rem;
+  text-decoration: none;  /* Remove o sublinhado */
+  color: #fff;  /* Cor do texto */
+  font-size: 1.1rem;
+  font-family: 'Arial', sans-serif;
+  transition: color 0.3s ease;  /* Transição suave para a cor */
 }
 
 .nav a:hover {
-  text-decoration: underline;
-}
-button {
-  background-color: #4CAF50; /* Cor do botão */
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+  color: #4CAF50;  /* Cor ao passar o mouse */
 }
 
-button:hover {
-  background-color: #45a049; /* Cor do botão ao passar o mouse */
+.nav a:active {
+  color: #45a049;  /* Cor quando clicado */
 }

@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Guilherme",
     "age": 25,
-    "city": "Porto Alegre - Fundão",
+    "city": "Alvoroada -RS ",
     "photo": "/images/trabalhohowgui.jpg", 
     "description": "Última vez visto no bar do vizinho, provavelmente tentando entender onde foi parar sua dignidade. Conheceu o novo morador e decidiu que a vida dele não era suficientemente complicada. Parabéns, Guilherme. Qualquer informação, por favor não ajude, é o que pedem seus colegas"
   },
@@ -21,7 +21,7 @@
     "age": 22,
     "city": "Porto Belo",
     "photo": "/images/kadu.jpg",  
-    "description": "Desapareceu depois da meia-noite de quinta-feira. A última vez que foi visto, estava com um colega perto do residencial MarAzul. Aparentemente, Kadu acreditava que era hora de uma jornada épica à procura de... nada. Talvez tenha se perdido no caminho para o bom senso."
+    "description": "Kadu (Kaiana) desapareceu depois da meia-noite de quinta-feira, sendo visto pela última vez com um colega de trabalho perto do residencial MarAzul. O que parecia uma noite comum de trabalho, talvez tenha se transformado em algo mais íntimo, um momento que Kadu prefere manter para si. Será que ele está buscando um escape nas sombras de suas próprias escolhas?"
   },
   {
     "id": 4,
@@ -29,6 +29,15 @@
     "age": 25,
     "city": "Porto Belo",
     "photo": "/images/pablo.jpg",  
-    "description": "Saiu de casa com o sonho de ser piloto de F1, mas foi visto pilotando um carrinho de mão. Talvez ele achasse que isso fosse a versão 'low-cost' do circuito de Mônaco. Depois disso, desapareceu. Sua mãe a namorada o procuram."
+    "description": "Saiu de casa com uma maleta de Nintendo 64 na mão e o sonho de ser piloto de F1. Foi visto pilotando um carrinho de mão, talvez achando que estava no circuito de Mônaco, versão 'low-cost', com gráficos de N64 e um controle quebrado. Depois disso, desapareceu"
+  },
+
+    {
+    "id": 5,
+    "name": "Bidu",
+    "age": 4,
+    "city": "Porto Belo",
+    "photo": "/images/bidu.jpeg",  
+    "description": "Visto seguindo Kadu e sem colega de trabalho na meia noite de quinta feira."
   }
 ]
