@@ -1,42 +1,32 @@
-/* Resetando margens, preenchimentos e box-sizing */
+/* main.scss - Versão Simplificada e Corrigida */
+
+/* Reset básico, o seu já estava perfeito */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Garante que os elementos base ocupem toda a altura */
+html, body, #root {
+  height: 100%;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
-  min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
 }
 
-#root {
+/* O container principal da sua aplicação (verifique o nome da classe no App.jsx) */
+.app-container {
   display: flex;
   flex-direction: column;
-  align-items: stretch; /* Garante que o conteúdo ocupe toda a largura da tela */
-  justify-content: flex-start;
-  width: 100%;  /* Garante que o root ocupe toda a largura */
-  min-height: 100%; /* Garante que o root ocupe toda a altura da tela */
-  padding: 0px 0px 0px 0px;
-  flex-grow: 1; /* Garante que o conteúdo ocupe todo o espaço disponível */
-
+  min-height: 100%; /* Força o container a ter, no mínimo, a altura da tela */
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch; /* Centraliza os itens horizontalmente */
-  justify-content: flex-start;
-  width: 100%;  /* Garante que a container ocupe toda a largura */
-  height: 100%; /* Garante que a container ocupe toda a altura */
-  flex-grow: 1; /* Garante que a container ocupe todo o espaço disponível */
-  
- 
+main {
+  /* A regra mais importante: faz o conteúdo principal crescer e ocupar o espaço vazio */
+  flex-grow: 1;
 }
 
 footer {
@@ -45,6 +35,4 @@ footer {
   background-color: #333;
   color: #fff;
   text-align: center;
-  position: relative;
-  margin-top: auto; /* Empurra o footer para o final da tela */
 }

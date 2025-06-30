@@ -1,22 +1,21 @@
 import React from 'react';
-import './Card.scss';  // Certifique-se de que o arquivo de estilo está sendo importado corretamente
+import './Card.scss'; // Vamos colocar nosso estilo aqui
 
-function Cards({ caseItem, onClick }) {
+const Cards = ({ caseData }) => {
   return (
-    <div className="card" onClick={onClick}>
-      <img 
-        src={caseItem.photo} 
-        alt={caseItem.name} 
-        className="card-image" // Classe para a imagem
-      />
-      <div className="card-info">
-        <h3 className="card-name">{caseItem.name}</h3>
-        <p className="card-details"><strong>Idade:</strong> {caseItem.age}</p>
-        <p className="card-details"><strong>Cidade:</strong> {caseItem.city}</p>
-        <p className="card-description">{caseItem.description}</p>
+    // O link pode envolver todo o card, para que ele seja clicável
+    // <a href={`/caso/${caseData.id}`} className="card-link">
+      <div className="card">
+        <img className="card-image" src={caseData.photo} alt={caseData.name} />
+        <div className="card-content">
+          <h3 className="card-name">{caseData.name}</h3>
+          <p className="card-details">{caseData.age} anos</p>
+          <p className="card-details">{caseData.city}</p>
+          <p className="card-description">{caseData.description}</p>
+        </div>
       </div>
-    </div>
+    // </a>
   );
-}
+};
 
 export default Cards;
