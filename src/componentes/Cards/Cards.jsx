@@ -1,10 +1,9 @@
 import React from 'react';
-import './Card.scss'; // Vamos colocar nosso estilo aqui
+import './Card.scss'; 
 
 const Cards = ({ caseData }) => {
   return (
-    // O link pode envolver todo o card, para que ele seja clicável
-    // <a href={`/caso/${caseData.id}`} className="card-link">
+
       <div className="card">
         <img className="card-image" src={caseData.photo} alt={caseData.name} />
         <div className="card-content">

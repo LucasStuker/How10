@@ -9,8 +9,7 @@ import Footer from './componentes/Footer/Footer';
 import FeedPage from './pages/FeedPage/FeedPage';
 import CadastroPage from './pages/CadastroPage/cadastroPage';
 import CadastradosPage from './pages/CadastradosPage/CadastradosPage';
-
-
+import SobrePage from './pages/SobrePage/SobrePage'
 
 const App = () => {
   return (
@@ -30,6 +29,8 @@ const App = () => {
             
            
             <Route path="/cadastrados" element={<CadastradosPage />} />
+
+            <Route path ="/about" element = {<SobrePage />} />
             
 
           </Routes>

@@ -1,7 +1,7 @@
 // src/pages/CadastradosPage/CadastradosPage.jsx - VERSÃO CORRIGIDA E COMPLETA
 
 import React, { useState, useEffect } from 'react';
-import Cards from '../../componentes/Cards/Cards'; // Reutilizando seu componente de Card!
+import Cards from '../../componentes/Cards/Cards'; 
 import { API_URL } from '../../apiConfig.js';
 import './cadastradosPage.scss';
 
@@ -11,7 +11,6 @@ const CadastradosPage = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // A mesma lógica de busca da FeedPage
     const fetchCases = async () => {
       try {
         const response = await fetch(`${API_URL}/cases`);
