@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // Para redirecionar após o sucesso
 import { API_URL } from '../../apiConfig.js';
-import './CadastroPage.scss'; // Verifique se o nome do arquivo de estilo está correto
+import './cadastroPage.scss';
 
 const CadastroPage = () => {
   const [name, setName] = useState('');
